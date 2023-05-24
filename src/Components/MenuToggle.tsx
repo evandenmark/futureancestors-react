@@ -1,10 +1,10 @@
 import { ToggleButton, ToggleButtonGroup } from "@mui/material";
 import { useState } from "react";
-import { Display } from "./types";
+import { Display, MenuToggleProps } from "./types";
 
-const MenuToggle = () => {
+const MenuToggle = ({display, setDisplay}: MenuToggleProps) => {
 
-    const [display, setDisplay] = useState(Display.SHORT)
+    
 
     const toggleAudioDisplay = () => {
         setDisplay(display==Display.SHORT ? Display.FULL : Display.SHORT)
