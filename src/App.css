@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.soundbox{
+  text-align: center;
+}
+
+.Header {
+  text-align: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +22,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fff9ef;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
