@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
 import Grid from './Components/GridSystem';
 import GridSystem from './Components/GridSystem';
 import MenuToggle from './Components/MenuToggle';
-import { shortAudio } from './data';
+import { fullAudio, shortAudio } from './data';
+import { Display } from './Components/types';
+import { shuffleArray } from './utils';
 
 function App() {
+
+  const [display, setDisplay] = useState(Display.SHORT)
+
+  //shuffle the shorts, allow fulls to go in chronological order
+  const audioData = display == Display.SHORT ? shuffleArray(shortAudio) : fullAudio;
 
   return (
     <html>
@@ -18,11 +25,9 @@ function App() {
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
       </head>
 
-      <Header/> 
+      <Header display={display} setDisplay={setDisplay}/> 
 
-      <MenuToggle/> 
-
-      <GridSystem data={shortAudio}/>
+      <GridSystem data={audioData}/>
         
     </html>
   );

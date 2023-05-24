@@ -23,7 +23,7 @@ const SoundBox = ({data}: SoundBoxProps) => {
                 <div className={"soundbox"}>
                     <h2>{data.speaker}</h2>
                     <p>{data.topic}</p>
-                    <audio controls>
+                    <audio controls preload="auto">
                         <source src={data.link} type="audio/mpeg"/>
                         Your browser does not support the audio tag.
                     </audio>
