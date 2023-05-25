@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/futureancestors-react/static/css/main.df3d32ec.css",
-    "main.js": "/futureancestors-react/static/js/main.336bf72d.js",
+    "main.js": "/futureancestors-react/static/js/main.7901f944.js",
     "static/js/787.28cb0dcd.chunk.js": "/futureancestors-react/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/futureancestors-react/index.html",
     "main.df3d32ec.css.map": "/futureancestors-react/static/css/main.df3d32ec.css.map",
-    "main.336bf72d.js.map": "/futureancestors-react/static/js/main.336bf72d.js.map",
+    "main.7901f944.js.map": "/futureancestors-react/static/js/main.7901f944.js.map",
     "787.28cb0dcd.chunk.js.map": "/futureancestors-react/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df3d32ec.css",
-    "static/js/main.336bf72d.js"
+    "static/js/main.7901f944.js"
   ]
 }
