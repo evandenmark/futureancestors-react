@@ -25,9 +25,11 @@ function App() {
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
       </head>
 
-      <Header display={display} setDisplay={setDisplay}/> 
+      <div className={"centerColumn"}>
+        <Header display={display} setDisplay={setDisplay}/> 
 
-      <GridSystem data={audioData}/>
+        <GridSystem data={audioData}/>
+      </div>
         
     </html>
   );

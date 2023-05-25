@@ -4,6 +4,11 @@
 
 .soundbox{
   text-align: center;
+  /* position: absolute; */
+  /* top: 50%; */
+  padding: 10%;
+  /* -ms-transform: translateY(-50%), translateX(-50%);
+  transform: translateY(-50%), translateX(-50%); */
 }
 
 .Header {
@@ -45,10 +50,15 @@
   }
 }
 
-#p{
-  font-family: "Source Sans Pro, Helvetica, sans-serif"
+
+.centerColumn{
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: Helvetica, sans-serif;
 }
 
-.h4{
-  font-family: "Source Sans Pro, Helvetica, sans-serif"
+.centerColumn.header-div#title{
+  font-size: 60;
 }
